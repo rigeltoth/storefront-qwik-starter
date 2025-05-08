@@ -3,4 +3,6 @@ compatibility_date = "2024-08-06"
 compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
-DEV = false
+DEV=false
+VITE_VENDURE_PROD_URL=vendure-server-production-1442.up.railway.app
+VITE_VENDURE_DEV_URL=vendure-server-production-1442.up.railway.app

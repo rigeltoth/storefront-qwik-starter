@@ -13,6 +13,6 @@ export const DEFAULT_METADATA_TITLE = 'RT store';
 export const DEFAULT_METADATA_DESCRIPTION = 'Single-tend store with Vendure & Qwik';
 export const DEFAULT_METADATA_IMAGE = 'https://qwik-storefront.vendure.io/social-image.png';
 export const DEFAULT_LOCALE = 'es';
-export const DEV_API = ENV_VARIABLES.VITE_VENDURE_DEV_URL || 'https://readonlydemo.vendure.io';
+export const DEV_API = ENV_VARIABLES.VITE_VENDURE_DEV_URL || 'vendure-server-production-1442.up.railway.app';
 export const PROD_API = ENV_VARIABLES.VITE_VENDURE_PROD_URL || 'vendure-server-production-1442.up.railway.app';
 export const LOCAL_API = ENV_VARIABLES.VITE_VENDURE_LOCAL_URL || 'http://localhost:3000';
