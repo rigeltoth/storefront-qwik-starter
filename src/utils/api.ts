@@ -65,8 +65,8 @@ const createHeaders = () => {
 	return headers;
 };
 
-const executeOnTheServer = server$(async (options: Options, apiUrl: string) =>
-	executeRequest(options, apiUrl)
+const executeOnTheServer = server$(async (options: Options) =>
+	executeRequest(options, import.meta.env.PROD_API)
 );
 
 const executeRequest = async (options: Options, apiUrl: string) => {
